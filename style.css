@@ -1,0 +1,35 @@
+h1{
+background-color: rgb(10, 8, 8);
+padding: 50px;
+color: aliceblue;
+}
+div{
+    text-align: center;
+}
+
+#espetos{
+    border-radius: 120px;
+    position:absolute;
+    left: 850px;
+    top: 170px;
+    width: 300px;
+}
+#bebidas{
+    border-radius: 120px;
+    position:absolute;
+    left: 210px;
+    top: 300px;
+    width: 300px;
+}
+
+#sobremesas{
+    border-radius: 120px;
+    position:absolute;
+    left: 860px;
+    top: 500px;
+    width: 290px;
+}
+
+
+
+
