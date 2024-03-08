@@ -1,35 +1,86 @@
-h1{
-background-color: rgb(10, 8, 8);
-padding: 50px;
-color: aliceblue;
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: rgb(10, 8, 8);
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+table{
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.alinhamento {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+.item {
+    text-align: justify;
+}
+span{
+    font-size: 50px;
+}
+#espetos {
+    border-radius: 120px;
+    position: absolute;
+    left: 860px;
+    top: 260px;
+    width: 300px;
+}
+
+#bebidas {
+    border-radius: 120px;
+    position: absolute;
+    left: 120px;
+    top: 770px;
+    width: 300px;
+}
+
+#sobremesas {
+    border-radius: 120px;
+    position: absolute;
+    left: 860px;
+    top: 1000px;
+    width: 300px;
 }
 div{
     text-align: center;
 }
 
-#espetos{
-    border-radius: 120px;
-    position:absolute;
-    left: 850px;
-    top: 170px;
-    width: 300px;
+.rodape{
+    /* border: solid 1px white; */
+    width: 1230px;
 }
-#bebidas{
-    border-radius: 120px;
-    position:absolute;
-    left: 210px;
-    top: 300px;
-    width: 300px;
+.coluna1{
+    width: 615px;
+    /* border: solid 1px white; */
+    text-align: justify;
+    font-size: 15px;
 }
-
-#sobremesas{
-    border-radius: 120px;
-    position:absolute;
-    left: 860px;
-    top: 500px;
-    width: 290px;
+.coluna2{
+    width: 615px;
+    /* border: solid 1px white; */
+    text-align: right;
+    font-size: 15px;
 }
-
-
-
-
+.coluna3{
+    width: 615px;
+    /* border: solid 1px white; */
+    text-align: justify;
+    font-size: 15px;
+}
+footer {
+    background-color: rgb(10, 8, 8);
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+}
